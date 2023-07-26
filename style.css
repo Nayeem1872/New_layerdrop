@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section 1 */
+.section1 {
+  height: 900px;
+  width: 100%;
+  background-color: #4F5DE4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: #333;
+  background-color: var(--primary);
+  color: var(--white);
+  position: relative;
+}
+
+.ellipse_14 {
+  width: 1039px;
+  height: 1039px;
+  flex-shrink: 0;
+  border-radius: 1039px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.00) 100%);
+  position: relative;
+  /* Add relative positioning to .ellipse_14 */
+  margin-left: -950px;
+}
+
+.ellipse_15 {
+  width: 759px;
+  height: 759px;
+  flex-shrink: 0;
+  border-radius: 759px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.00) 100%);
+  box-shadow: 54px 24px 39px 0px rgba(0, 0, 0, 0.02);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame_106 {
+  display: flex;
+  flex-direction: column; /* Change to column layout to stack elements vertically */
+  align-items: center; /* Align items at the center */
+  gap: 40px;
+}
+.title {
+  position: absolute;
+  top: calc(50% - 176px);
+  left: 300px;
+  width: 629px;
+  height: 398px;
+}
+.a-better-learning-journey-futu-parent {
+  position: absolute;
+  top: calc(50% - 199px);
+  left: 0;
+  flex-direction: column;
+  gap: 40px;
+}
+.a-better-learning-container {
+  position: relative;
+  line-height: 85px;
+  font-weight: 800;
+  display: inline-block;
+  width: 629px;
+}
+.a-better {
+  margin: 0;
+}
+.all-the-lorem {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  display: inline-block;
+  width: 440px;
+  font-family: 'Urbanist';
+}
+.a-better-learning-journey-futu-parent,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-parent {
+  flex-direction: row;
+  gap: 20px;
+  font-size: var(--font-size-lg);
+}
+.button-parent {
+  position: relative;
+  width: 173px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.button-group,
+.button-parent,
+.button5 {
+  border-radius: var(--br-7xs);
+  height: 56px;
+}
+.button4,
+.frame-child {
+  position: absolute;
+  top: 0;
+  height: 56px;
+  z-index: 1;
+  margin-right: 7px;
+}
+.button4 {
+  position: relative;
+  /* Change the position to relative */
+  border-radius: var(--br-7xs);
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-3xs);
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.button4::before {
+  content: "";
+  /* Add a pseudo-element */
+  position: absolute;
+  top: 0;
+  right: 100%;
+  /* Start the pseudo-element outside the button on the right */
+  width: 100%;
+  height: 100%;
+  background-color: #f88b4a;
+  z-index: -1;
+  transition: right 0.3s;
+  /* Add a transition to create the sliding effect */
+}
+
+.button-parent .button4:hover::before {
+  right: 0;
+  /* Slide the pseudo-element from right to left on hover */
+}
+.exclusive-coach,
+.icon {
+  position: relative;
+  font-family: 'Urbanist';
+}
+.button .exclusive-coach {
+  white-space: nowrap;
+}
+.icon3 {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button-group {
+  position: relative;
+  width: 222px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+}
+
+.button5:hover {
+  background-color: #8282E9;
+  cursor: pointer;
+}
+
+.button5,
+.frame-child1 {
+  position: absolute;
+  top: 0;
+  height: 56px;
+  z-index: 1;
+  right: 20px;
+}
+.take-now-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  gap: var(--gap-3xs);
+}
+.exclusive-coach,
+.icon {
+  position: relative;
+  font-family: 'Urbanist';
+}
+.button .exclusive-coach {
+  white-space: nowrap;
+}
+.slider-icon {
+  width: 642px;
+  height: 642px;
+  flex-shrink: 0;
+  margin-left: 750px;
+  margin-top: -150px;
+}
+.small-elements-icon:hover~.button4 {
+  background-color: #f88b4a;
+}
+.small-elements-icon {
+  position: absolute;
+  top: -63px;
+  left: 371px;
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.small-elements-icon1{
+  position: absolute;
+  top: 398px;
+  left: -320px;
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.small-elements-icon-vector{
+  position: absolute;
+ 
+  top: 296px;
+  left: 474px;
+  width: 71.28199999999998px;
+  height: 62.959999999999994px;
+  flex-shrink: 0;
+fill: var(--white, #FFF);
+}
+.small-elements-icon-element{
+  position: absolute;
+  top: -120px;
+  left: 776px;
+  width: 119px;
+  height: 106.015px;
+/* transform: rotate(-43.5deg); */
+flex-shrink: 0;
+}
+.small-elements-icon-element2{
+  position: absolute;
+  top: 412px;
+  left: 1286px;
+  width: 88.625px;
+height: 65.396px;
+transform: rotate(-7.849deg);
+flex-shrink: 0;
+}
+.small-elements-icon-star2{
+  position: absolute;
+  top: -159px;
+    left: 1185px;
+  width: 33px;
+height: 33px;
+flex-shrink: 0;
+}
+.small-elements-icon-element1{
+  position: absolute;
+  top: -118px;
+  
+  left: 1298px;
+  width: 53.006px;
+  height: 52.997px;
+  flex-shrink: 0;
+}
+.small-elements-icon-star1{
+  position: absolute;
+  top: 482px;
+    left: 964px;
+  width: 33px;
+height: 33px;
+flex-shrink: 0;
+}
+.small-elements-icon-v{
+  position: absolute;
+  top: -285px;
+  left: 272px;
+  width: 1291.122px;
+  height: 910.406px;
+  /* transform: rotate(-41.765deg); */
+
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.11);
+  opacity: 0.5;
+  clip-path: polygon(74% 0, 95% 0, 76% 100%, 53% 100%);
+}
+.small-elements-icon-vector12{
+  position: absolute;
+  top: -413px;
+    left: 748px;
+  width: 885px;
+height: 1040px;
+flex-shrink: 0;
+}
+
+/* Section 2 */
+.section2 {
+  height: 1470px;
+  width: 1920px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .section1 {
+    height: 100vh;
+    width: 100%;
+    font-size: 18px;
+  }
+  .slider-icon {
+   display: none;
+  }
+}
+@media (max-width: 768px) {
+  .section2 {
+    height: 100vh;
+    width: 100%;
+    font-size: 24px;
+  }
+}

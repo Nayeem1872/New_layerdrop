@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* line-height: normal; */
+}
+
+:root {
+  /* fonts */
+  --font-urbanist: Urbanist;
+
+  /* font sizes */
+  --font-size-base-8: 15.8px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --white: #fff;
+  --primary: #4f5de4;
+  --secondary: #f57005;
+  --grey: #b7b0b4;
+  --color-gray: rgba(255, 255, 255, 0.47);
+  --color-lavender: #e0e3fd;
+  --color-slategray: #697585;
+  --bg: #2a254d;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-11xl: 30px;
+  --gap-4xs: 9px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+
+  /* border radiuses */
+  --br-7xs: 6px;
+  --br-sm: 14px;
+  --br-3xl: 22px;
+}
